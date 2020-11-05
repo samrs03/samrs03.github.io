@@ -94,7 +94,7 @@ const otherToHide = () => {
         menuThemeTrigger
     ];
     var thingsToShow = [trendSection];
-    sweepingArraysWithInherit(thingsToShow,thingsToHide);
+    sweepingArraysWithFlex(thingsToShow,thingsToHide);
 };
 
 const ifFirstWindowCancelButton = () => {
