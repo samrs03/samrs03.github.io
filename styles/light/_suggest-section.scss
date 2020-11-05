@@ -1,0 +1,67 @@
+.suggest {
+  margin-top: 64px;
+  .suggest-box {
+    background: #fffafe;
+    border: 1px solid #e6bbe2;
+    box-shadow: inset -2px -2px 0 0 #e6dce4, inset 2px 2px 0 0 #80687d;
+    margin-left: 6.9%;
+    width: 83.3%;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    h2 {
+      margin-left: 1%;
+      font-family: $fontFamily1;
+      font-size: 14px;
+      color: #110038;
+      letter-spacing: 0;
+    }
+  }
+  .suggest-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    margin-left: 6.9%;
+    margin-top: 16px;
+    width: 83.3%;
+    .suggest-container-gifbox {
+      background: #E6E6E6;
+      box-shadow: inset -2px -2px 0 0 #B4B4B4, inset 2px 2px 0 0 #FFFFFF;
+      width: 23.4%;
+      height: 313px;
+      p {
+        background-image: linear-gradient(270deg, #F7C9F3 0%, #4180F6 100%);
+        .close-button-1 {
+          position: relative;
+          left: 170px;
+          top: 1px;
+          }
+        .close-button-2 {
+          position: relative;
+          left: 226px;
+          top: 1px;
+        }
+        .close-button-3 {
+          position: relative;
+          left: 184px;
+          top: 1px;
+        }
+        .close-button-4 {
+          position: relative;
+          left: 156px;
+          top: 1px;
+        }
+      }
+      .suggest-gifbox-img {
+        a {
+          background: #4180F6;
+          border: 1px solid #4C2F99;
+          box-shadow: inset -2px -2px 0 0 #284F99, inset 0.5px 0.5px 0 0 #FFFFFF;
+          position: relative;
+          top: -20px;
+          left: 5px;
+        }
+      }
+    }  
+  }
+}

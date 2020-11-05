@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en" id="body">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/light/styles.css" id="styles-tag"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap"
+      rel="stylesheet"
+    />
+    <title>GifOS</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-bar">
+        <p>
+          ¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número
+          de visitas: 12.765.803
+        </p>
+      </div>
+      <nav>
+        <a class="gifos-image" href="/Acamica/Gifproject/"
+          ><img src="../asset/gifOF_logo.png" alt="Logo GifOS" id="logo"
+        /></a>
+        <ul class="menu">
+          <li class="create-gifos" id="create-gifos-box"><a href="#" id ="create-gifos-text">Crear Guifos</a></li>
+          <li class="choose-theme" id="choose-theme-box"><a href="#" id ="choose-theme-text">Elegir tema</a></li>
+          <li class="down-arrow" id="down-arrow">
+            <img
+              src="../asset/dropdown.svg"
+              alt="dropdown image"
+              class="dropdown-image"
+              id = "dropdown-image"
+            />
+          </li>
+          <li class="text-button"><a role="button" id = "mygif-text">Mis Guifos</a></li>
+        </ul>
+        <ul class="theme-options" id="theme-option">
+          <li class="theme-day" id="theme-day">
+            <p class="day-text" id="day-text">Sailor Day</p>
+          </li>
+          <li class="theme-night" id="theme-night">
+            <p class="night-text" id="night-text">Sailor Night</p>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+
+
+    <section class="first-video-capturing-view" id="first-video-capturing-view">
+      <div class="creating-gifos-view" id="creating-gifos-view">
+        <div class="creating-gifos-title" id="creating-gifos-title">
+          <p>Crear Gifos</p>
+        </div>
+        <div class="creating-gifos-first-part" id="creating-gifos-first-part">
+          <div class="creating-gifos-image-container" id="creating-gifos-image-container">
+            <img src="../asset/window_img.png" alt="">
+          </div>
+          <div class="creating-gifos-text-container" id="creating-gifos-text-container">
+            <p>Aquí podrás crear tus propios guifos</p>
+          </div>
+        </div>
+        <div class="creating-gifos-second-part" id="creating-gifos-second-part">
+          <div class="creating-gifos-second-part-text-container" id="creating-gifos-second-part-text-container">
+            <br>
+            <p>
+              Crear tu <strong>guifo</strong> es muy fácil, graba cualquier imagen con tu cámara y obtén guifos personalizados. Los pasos para crear tu guifo son:
+              <br>
+              <br>
+             <strong>1)</strong> Dar permisos de acceso a la cámara (sólo por el tiempo de uso) <br>
+             <strong>2)</strong> Capturar tu momento guifo <br>
+             <strong>3)</strong> Revisar el momento <br> 
+             <strong>4)</strong> Listo para subir y compartir! <br>
+              <br>
+              ¿Quieres comenzar a crear tu <strong>guifo</strong> ahora?
+            </p>
+          </div>
+        </div>
+        <div class="creating-gifos-third-part" id="creating-gifos-third-part">
+          <ul class="creating-gifos-button-container">
+            <li><div class="first_button" id="first_button"><p>Cancel</p></div></li>
+            <li><div class="second_button" id="second_button"><p>Comenzar</p></div></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="preview" id="preview">
+      <div class="preview-container" id="preview-container">
+        <div class="preview-container-header" id="preview-container-header">
+          <p>Un Chequeo Antes de Empezar</p><img src="../asset/button3.svg" alt="">
+        </div>
+        <div class="preview-camera" id="preview-camera">
+          <video class="first-setup" id="initiate-camera"></video>
+        </div>
+        <div class="capture-container" id="capture-container">
+          <ul>
+            <li class="capture-png" id="capture-png"><img src="../asset/camera.svg" alt=""></li>
+            <li class="capture-text" id="capture-text"><p>Capturar</p></li>
+          </ul>
+        </div>
+        <div class="capturing-final-part" id="capturing-final-part">
+          <div class="time-container" id="time-container">
+            <p>00:00:03:06</p>
+          </div>
+          <div class="ready-container" id="ready-container">
+            <ul>
+              <li class="recording-png" id="recording-png"><img src="../asset/recording.svg" alt=""></li>
+              <li class="ready-text" id="ready-text"><p>Listo</p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="captured-gif" id="captured-gif">
+      <div class="captured-gif-container" id="captured-gif-container">
+        <div class="captured-gif-container-header" id="captured-gif-container-header">
+          <p>Vista Previa</p>
+        </div>
+        <div class="captured-gif-camera" id="captured-gif-camera">
+          <video class="captured-gif-video" id="stop-recording"></video>
+        </div>
+        <div class="captured-final-part" id="captured-final-part">
+          <div class="captured-time-container" id="capture-dtime-container">
+            <p>00:00:03:06</p>
+          </div>
+          <div class="bar-container">
+            <div class="forward-container" id="forward-container">
+              <img src="../asset/forward.svg" alt="">
+            </div>
+            <div class="bar-div">
+              <div class="pink-div"></div>
+              <div class="pink-div"></div>
+              <div class="pink-div"></div>
+              <div class="pink-div"></div>
+              <div class="pink-div"></div>
+              <div class="pink-div"></div>
+              <div class="pink-div"></div>              
+              <div class="pink-div"></div>
+              <div class="gray-div"></div>
+              <div class="gray-div"></div>
+              <div class="gray-div"></div>
+              <div class="gray-div"></div>
+              <div class="gray-div"></div>
+              <div class="gray-div"></div>
+              <div class="gray-div"></div>
+              <div class="gray-div"></div>
+              <div class="gray-div"></div>              
+            </div>
+          </div>
+          <div class="captured-ready-container" id="captured-ready-container">
+            <ul>
+              <li class="repeat-capture" id="repeat-capture"><p>Repetir Captura</p></li>
+              <li class="uploadcapturetext" id="uploadcapturetext"><p>Subir Guifo</p></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="uploading-video-section" id="uploading-video-section">
+      <div class="uploading-video-container" id="uploading-video-container">
+        <div class="uploading-video-container-header" id="uploading-video-container-header">
+          <p>Subiendo Guifo</p><img src="../asset/button3.svg" alt="">
+        </div>
+        <div class="uploading-video-div" id="uploading-video-div">
+          <img src="../asset/globe_img.png" alt="">
+          <p class="uploading-video-text-first">Estamos subiendo tu guifo...</p>
+          <div class="bar-div">
+            <div class="pink-div"></div>
+            <div class="pink-div"></div>
+            <div class="pink-div"></div>
+            <div class="pink-div"></div>
+            <div class="pink-div"></div>
+            <div class="pink-div"></div>
+            <div class="pink-div"></div>              
+            <div class="pink-div"></div>
+            <div class="pink-div"></div>              
+            <div class="pink-div"></div>
+            <div class="gray-div"></div>
+            <div class="gray-div"></div>
+            <div class="gray-div"></div>
+            <div class="gray-div"></div>
+            <div class="gray-div"></div>
+            <div class="gray-div"></div>
+            <div class="gray-div"></div>
+            <div class="gray-div"></div>
+            <div class="gray-div"></div>
+            <div class="gray-div"></div>
+            <div class="gray-div"></div>      
+            <div class="gray-div"></div>
+            <div class="gray-div"></div>          
+          </div>
+          <p class="uploading-video-text-second">Tiempo restante <span class="uploading-video-text-second-scratch">38 años</span> algunos minutos</p>
+        </div>        
+      </div>
+    </section>
+
+    <section class="uploaded-gif-section" id="uploaded-gif-section">
+      <div class="uploaded-gif-container" id="uploaded-gif-container">
+        <div class ="uploaded-gif-header" id="uploaded-gif-header">
+          <p>Guifo Subido Con Éxito</p><img src="../asset/button3.svg" alt="">
+        </div>
+          <div class="uploaded-gif-first-part" id="uploaded-gif-first-part">
+            <div class="uploaded-gif-container-div" id="uploaded-gif-container-div">
+              <img class="uploaded-gif-video" id="recording-ready" src="../asset/Blank.png" alt=" ">
+            </div>
+            <div class="uploaded-gif-multimedia" id="uploaded-gif-multimedia">
+              <ul>
+                <li class="first-li" id="first-li"><p>Gif creado con Éxito</p></li>
+                <li class="second-li" id="second-li"><p>Copiar Enlace Guifo</p></li>
+                <li class="third-li" id="third-li"><p>Descargar Guifo</p></li>
+             </ul>
+            </div>          
+      </div>        
+      <div class="uploaded-gif-second-part" id="uploaded-gif-second-part">
+        <div class="uploaded-gif-ready-button" id="uploaded-gif-ready-button">
+          <p>Listo</p>
+        </div>
+      </div>
+      </div>
+    </section>
+    <section id="trend" class="trend">
+      <div class ="trend-box" id="trend-box">
+        <h2>Mis Guifos:</h2>
+      </div>
+      <div class="trend-gifs" id ="trends-gifs">
+      </div>
+    </section>
+    <script src="https://www.WebRTC-Experiment.com/RecordRTC.js"></script>
+    <script src = "../js/logic.js"></script>
+  </body>
+</html>

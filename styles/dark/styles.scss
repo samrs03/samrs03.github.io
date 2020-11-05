@@ -1,0 +1,17 @@
+@import "_variable.scss";
+* {
+  padding: 0;
+  border: none;
+  margin: 0;
+  font-size: $defaultFontSize;
+  background-color: none;
+}
+@import "_header.scss";
+@import "_interactive-section.scss";
+@import "_search-section.scss";
+@import "_capturing-video-section.scss";
+@import "_suggest-section.scss";
+@import "_trend-section.scss";
+body {
+  background: #110038;
+}

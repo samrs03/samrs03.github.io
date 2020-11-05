@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" id="body">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/light/styles.css" id="styles-tag"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap"
+      rel="stylesheet"
+    />
+    <title>GifOS</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-bar">
+        <p>
+          ¡Bienvenidos/as a Guifos.com! ——————Donde los gifs están.////// Número
+          de visitas: 12.765.803
+        </p>
+      </div>
+      <nav>
+        <a class="gifos-image" href="./"
+          ><img src="./asset/gifOF_logo.png" alt="Logo GifOS" id="logo"
+        /></a>
+        <ul class="menu">
+          <li class="create-gifos" id="create-gifos-box"><a href="./capturing_video/capturing_video.html" id ="create-gifos-text">Crear Guifos</a></li>
+          <li class="choose-theme" id="choose-theme-box"><a href="#" id ="choose-theme-text">Elegir tema</a></li>
+          <li class="down-arrow" id="down-arrow">
+            <img
+              src="./asset/dropdown.svg"
+              alt="dropdown image"
+              class="dropdown-image"
+              id = "dropdown-image"
+            />
+          </li>
+          <li class="text-button"><a role="button" id = "mygif-text">Mis Guifos</a></li>
+        </ul>
+        <ul class="theme-options" id="theme-option">
+          <li class="theme-day" id="theme-day">
+            <p class="day-text" id="day-text">Sailor Day</p>
+          </li>
+          <li class="theme-night" id="theme-night">
+            <p class="night-text" id="night-text">Sailor Night</p>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="search-box">
+      <div class="search-container">
+        <p>Buscar</p>
+      </div>
+      <div class="form-box" id="form-box">
+        <form>
+          <input
+            type="text"
+            placeholder="Busca gifs, hashtags, temas, busca lo que quieras…"
+            id ="input-search"
+          />
+          <div class ="search-button" id = "search-button">
+            <img src="./asset/lupa_inactive.svg" alt="" />
+            <p>Buscar</p>
+          </div>
+        </form>
+      </div>
+      <div class ='search-suggest-text' id ="search-suggest-text">  
+        <div class='first-search' id="first-search-div">
+          <p id="first-search-p-tag"></p>
+        </div>
+        <div class ='second-search' id ="second-search-div">
+        <p id="second-search-p-tag"></p>
+        </div>
+        <div class='third-search' id="third-search-div">
+          <p id="third-search-p-tag"></p>
+        </div>
+      </div>
+    </section>
+    <section 
+    class = "suggest" id ="suggest-section">
+      <div class="suggest-box">
+        <h2>Hoy te sugerimos:</h2>
+      </div>
+      <div id="suggest-container" class = 'suggest-container'>
+        <div class="suggest-container-gifbox">
+          <p><img src="./asset/button3.svg" alt="" class="close-button-1"></p>        
+          <div class="suggest-gifbox-img"><img src = "./asset/Blank.png" id="suggest-gif-1" alt="" /><a href="">Ver más...</a></div>
+        </div>
+        <div class="suggest-container-gifbox">
+          <p><img src="./asset/button3.svg" alt="" class="close-button-2"></p>
+          <div class="suggest-gifbox-img"><img id="suggest-gif-2" src = "./asset/Blank.png" alt="" /><a href="">Ver más...</a></div>
+        </div>
+        <div class="suggest-container-gifbox">
+          <p><img src="./asset/button3.svg" alt="" class="close-button-3"></p>
+          <div class="suggest-gifbox-img"><img id="suggest-gif-3" src = "./asset/Blank.png" alt="" /><a href="">Ver más...</a></div>
+        </div>
+        <div class="suggest-container-gifbox">
+          <p><img src="./asset/button3.svg" alt="" class='close-button-4'></p>
+          <div class="suggest-gifbox-img"><img id="suggest-gif-4" src = "./asset/Blank.png" alt="" /><a href="">Ver más...</a></div>
+        </div>
+      </div>
+    </section>
+    <section id="trend" class="trend">
+      <div class ="trend-box" id="trend-box">
+        <h2>Tendencias:</h2>
+      </div>
+      <div class="trend-gifs" id ="trends-gifs">
+      </div>
+    </section>
+    <script src = "./js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,27 @@
+.trend {
+    margin-top: 64px;
+    .trend-box {
+      background: #fffafe;
+      border: 1px solid #e6bbe2;
+      box-shadow: inset -2px -2px 0 0 #e6dce4, inset 2px 2px 0 0 #80687d;
+      margin-left: 6.9%;
+      width: 83.3%;
+      height: 32px;
+      display: flex;
+      align-items: center;
+      h2 {
+        margin-left: 1%;
+        font-family: $fontFamily1;
+        font-size: 14px;
+        color: #110038;
+        letter-spacing: 0;
+      }
+    }
+    .trend-gifs {
+        margin: 16px 9.8% 15px 6.9%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+}
